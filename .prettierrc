@@ -1,0 +1,16 @@
+{
+    "singleQuote": true,
+    "endOfLine": "auto",
+    "printWidth": 140,
+    "overrides": [
+        {
+            "files": [
+                "*.scss",
+                "*.css"
+            ],
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
