@@ -79,7 +79,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'src/images/icon.png',
+        name: 'Gatsby Netlify CMS Starter',
+        short_name: 'Gatsby Netlify CMS Starter',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'standalone',
+        icon: 'src/img/icon.png',
+        // Other manifest values for PWA
       },
     },
     'gatsby-plugin-mdx',
