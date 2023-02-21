@@ -86,6 +86,11 @@ module.exports = {
         theme_color: '#ffffff',
         display: 'standalone',
         icon: 'src/img/icon.png',
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
         // Other manifest values for PWA
       },
     },
